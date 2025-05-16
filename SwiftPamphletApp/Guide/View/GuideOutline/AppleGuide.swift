@@ -243,6 +243,7 @@ struct AppleGuide {
                 L(t: "SwiftUI Canvas", type: 1),
                 L(t: "SF Symbol", icon: "star", type: 1),
                 L(t: "SwiftCharts", icon: "chart.line.uptrend.xyaxis", type: 1),
+//                L(t: "数据可视化", ),
                 L(t: "Shaders Metal", icon: "cpu", type: 1),
             ]),
             L(t: "修饰符", sub: [
@@ -476,7 +477,6 @@ struct AppleGuide {
             L(t: "架构技术演进", type: 1),
             L(t: "设计模式", type: 1),
             L(t: "包管理工具",sub: [
-                L(t: "包管理工具-介绍", type: 1),
                 L(t: "Swift Package Manager", type: 1),
                 L(t: "CocoaPods", type: 1)
             ]),
@@ -485,7 +485,7 @@ struct AppleGuide {
             L(t: "跨平台", sub: [
                 L(t: "跨平台-Swift", type: 1),
                 L(t: "跨平台-布局渲染", type: 1),
-                L(t: "跨平台-大厂自研"),
+                L(t: "跨平台-大厂自研", type: 1),
                 L(t: "跨平台-React Native", type: 1),
             ]),
             L(t: "编辑器", sub: [
@@ -494,20 +494,20 @@ struct AppleGuide {
                 L(t: "VSCode", type: 1),
             ]),
             L(t: "Bazel", sub: [
-                L(t: "Bazel-介绍", type: 1),
-                L(t: "Bazel-生成Xcode工程", type: 1),
-                L(t: "Bazel-依赖分析", type: 1),
-                L(t: "Bazel-query指令找依赖关系", type: 1),
-                L(t: "Bazel-远程执行配置", type: 1),
-                L(t: "Bazel-远程缓存配置", type: 1),
-                L(t: "Bazel-自定义的构建规则", type: 1),
+                L(t: "Bazel-介绍"),
+                L(t: "Bazel-生成Xcode工程"),
+                L(t: "Bazel-依赖分析"),
+                L(t: "Bazel-query指令找依赖关系"),
+                L(t: "Bazel-远程执行配置"),
+                L(t: "Bazel-远程缓存配置"),
+                L(t: "Bazel-自定义的构建规则"),
             ]),
             L(t: "自动化构建流程", type: 1),
             L(t: "单例", type: 1),
             L(t: "程序入口点", icon: "door.right.hand.open", type: 1),
         ]),
         L(t: "macOS", icon: "macstudio", sub: [
-            L(t: "macOS技术演进", type: 1),
+            L(t: "macOS技术演进"),
             L(t: "macOS范例"),
             L(t: "三栏结构"),
             L(t: "全屏模式"),
@@ -541,7 +541,7 @@ struct AppleGuide {
             L(t: "人工智能-Image Playground", type: 1),
             L(t: "人工智能-基于位置的服务", type: 1),
             L(t: "人工智能-文本", type: 1),
-            L(t: "人工智能-Translation", type: 1),
+            L(t: "人工智能-Translation"),
             L(t: "Stable Diffusion", type: 1),
             L(t: "使用LLM模型"),
             L(t: "使用三方大模型接口", type: 1),
